@@ -1,0 +1,55 @@
+name: jo
+description: "Jordan Tourism App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.2.5
+
+  geolocator: ^10.1.0
+
+  cupertino_icons: ^1.0.8
+
+  # تشغيل الفيديو
+  video_player: ^2.9.1
+
+  # تشغيل الصوت
+  audioplayers: ^6.5.1
+
+  # الاهتزاز
+  vibration: ^1.7.4
+
+  # الإشعارات
+  flutter_local_notifications: ^16.3.2
+
+  # فحص الاتصال بالإنترنت
+  connectivity_plus: ^4.0.1
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/petra.jpg
+    - assets/images/wadirum.jpg
+    - assets/images/jerash.jpg
+    - assets/images/Ajloun.jpg
+    - assets/images/Irbid.jpg
+    - assets/audio/correct.mp3
+    - assets/audio/clap.mp3
+    - assets/audio/wrong.mp3
+    - assets/video/jordan.mp4
